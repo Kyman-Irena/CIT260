@@ -5,6 +5,7 @@
  */
 package group1.model;
 
+import cit260.group1.model.Crops;
 import cit260.group1.model.Player;
 
 /**
@@ -24,6 +25,12 @@ public class Group1Model {
         String  playerOneName = playerOne.getName();
         
         System.out.println(playerOne.toString());
+        
+        Crops yearOne = new Crops ();
+        
+        yearOne.setNewPeople(5);
+        
+        System.out.println(yearOne.toString());
     }
     
 }
