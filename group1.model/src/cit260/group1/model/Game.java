@@ -16,6 +16,7 @@ public class Game implements Serializable {
     private double totalTime;
     private int noPeople;
     private Player player;
+    private Crops crops;
 
     public Game() {
     }
