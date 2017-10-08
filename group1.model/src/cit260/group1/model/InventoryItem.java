@@ -8,7 +8,7 @@ package cit260.group1.model;
 import java.io.Serializable;
 
 /**
- *
+ * 
  * @author Erin
  */
 public class InventoryItem implements Serializable{
